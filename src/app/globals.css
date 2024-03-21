@@ -1,0 +1,22 @@
+@import url("https: //fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  font-family: "calibri";
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  background-color: #060417;
+}
+.container {
+  max-width: 1300px !important;
+  margin: 0 auto;
+  position: relative;
+}
+@media (max-width: 1300px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+}

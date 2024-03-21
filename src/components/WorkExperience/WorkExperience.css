@@ -1,0 +1,23 @@
+.experience-container {
+  margin: 4rem 0;
+  position: relative;
+}
+
+.experience-container h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.experience-content {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 769px) {
+  .experience-content {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
